@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class tempfiles : MonoBehaviour {
+public class temp : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
