@@ -1,64 +1,77 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class WaterControl : MonoBehaviour
 {
-    private int m_ph;
-    public int m_amplitude;
-
+    //Ph management
+    public int m_ph;
+    private int m_amplitude;
+    //timer to switch ph amount
     private float m_waterTimer;
     public float m_startWaterTimer;
 
-    private float m_gameTimer;
-    public float m_MaxGameTimer;
-    private int m_intGameTimer;
-
+    //UI elements
     [SerializeField]
     private TextMeshPro m_WaterText;
+    [SerializeField]
+    private GameObject m_phBar;
 
-	void Start ()
+    //Assign Potion
+    public PotionUseScript m_potion;
+
+    void Start ()
     {
         m_waterTimer = m_startWaterTimer;
-        m_gameTimer = m_MaxGameTimer;
 	}
 	void Update ()
     {
-        //GameTimer
-        //m_gameTimer -= Time.deltaTime;
-        //Debug.Log(m_gameTimer);
-        
+        Debug.Log(m_potion.gameObject.name);
         //Phtext
         m_WaterText.text = m_ph.ToString();
+        //PhBar
+        if (m_ph < 25 || m_ph > -25)
+        {
+            m_phBar.transform.position = new Vector2(m_phBar.transform.position.x, (m_ph + 25f) / 10f);
+        }
         //random water generator
         if (m_waterTimer < 0)
         {
-            m_amplitude = Random.Range(-10, 10);
+            m_amplitude = Random.Range(-15, 15);
             m_ph += m_amplitude;
             m_waterTimer = m_startWaterTimer;
+            //m_potion.gameObject.SetActive(true);
         }
         else
         {
             m_waterTimer -= Time.deltaTime;
         }
-        if (m_ph >= 10 || m_ph <= -10)
+        #region Lose requirement
+        if (m_ph >= 25)
         {
-            Debug.Log("they're something wrong, fix it");
-        }
-        if (m_ph >= 15 || m_ph <= 15)
-        {
+            m_ph = 25;
             Debug.Log("You lose");
         }
+        else if (m_ph <= -25)
+        {
+            m_ph = -25;
+            Debug.Log("You lose");
+        }
+        #endregion
+        //Debug lines
+        if (m_ph >= 14)
+        {
+            Debug.Log("kijk uit ph is te hoog!");
+        }
+        else if (m_ph <= -12)
+        {
+            Debug.Log("kijk uit ph is te laag!");
+        }
+        else
+        {
+            Debug.Log("ph is in balans");
+        }
 	}
-
-    public void NegativeButton()
-    {
-        m_ph -= 5;
-    }
-
-    public void PositiveButton()
-    {
-        m_ph += 5;
-    }
 }
