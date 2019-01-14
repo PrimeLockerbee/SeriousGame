@@ -19,4 +19,8 @@ public class PotionUseScript : MonoBehaviour
     {
         m_potion.SetActive(false);
     }
+    private void OnBecameVisible()
+    {
+        //this.transform.position =
+    }
 }
