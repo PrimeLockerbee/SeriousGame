@@ -7,7 +7,7 @@ using TMPro;
 
 public class GameTimer : MonoBehaviour
 {
-    float m_GameTime = 60.0f;
+    public float m_GameTime = 60.0f;
 
     [SerializeField]
     private TextMeshProUGUI m_TimerText;

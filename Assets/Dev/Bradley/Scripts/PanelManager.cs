@@ -5,16 +5,21 @@ using UnityEngine;
 public class PanelManager : MonoBehaviour
 {
     [SerializeField]
-    public GameObject introPanel;
+    private GameObject introPanel;
 
     [SerializeField]
-    public GameObject gamePanel;
+    private GameObject gamePanel;
 
-	void Start ()
+    [SerializeField]
+    private GameTimer m_Timer;
+
+    void Start()
     {
         introPanel.SetActive(true);
         gamePanel.SetActive(false);
-	}
+
+        m_Timer = GetComponent<GameTimer>();
+    }
 	
 	void Update ()
     {
@@ -22,6 +27,7 @@ public class PanelManager : MonoBehaviour
         {
             introPanel.SetActive(false);
             gamePanel.SetActive(true);
+            m_Timer.m_GameTime = 60f;
         }
 	}
 }

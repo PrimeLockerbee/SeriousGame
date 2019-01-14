@@ -1,10 +1,12 @@
 fileFormatVersion: 2
-guid: d6b80f45eb95df84999586e8d9f739ef
+guid: c07d41e16b0b8e5488308847079ed79b
 TextureImporter:
   fileIDToRecycleName:
-    21300000: background
-    21300002: fill
-    21300004: bar
+    21300000: phisgoedfeedback_0
+    21300002: phisgoedfeedback_1
+    21300004: phisgoedfeedback_2
+    21300006: phisgoedfeedback_3
+    21300008: phisgoedfeedback_4
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -44,7 +46,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -63,10 +65,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -74,10 +76,10 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -85,10 +87,10 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: iPhone
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -96,10 +98,10 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Android
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,61 +111,101 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: background
+      name: phisgoedfeedback_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 187
-        height: 820
+        x: 72
+        y: 382
+        width: 654
+        height: 439
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41628a2b5f94dd847b2da4c83e51422c
+      spriteID: bfff7ee38a134eb45b00c58dcf2ddeef
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fill
+      name: phisgoedfeedback_1
       rect:
         serializedVersion: 2
-        x: 234
-        y: 145
-        width: 105
-        height: 506
-      alignment: 9
-      pivot: {x: 0.5, y: 0.49}
+        x: 884
+        y: 382
+        width: 650
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a43b2a3d2fa0cf4a9f377c1fdac07cf
+      spriteID: e208586d53381aa4092d553f23ca3cc4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bar
+      name: phisgoedfeedback_2
       rect:
         serializedVersion: 2
-        x: 251
-        y: 727
-        width: 75
-        height: 20
+        x: 1657
+        y: 382
+        width: 653
+        height: 439
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc59b894139cb834c874e93aa132654a
+      spriteID: a677e8d7ba8c5824c9601402192d3d51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phisgoedfeedback_3
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 382
+        width: 649
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0ab7f2498d6e64386a13ba50fdb40e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phisgoedfeedback_4
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 382
+        width: 652
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050f2acf22f0e134aaa3ddffba89fb19
       vertices: []
       indices: 
       edges: []
@@ -171,7 +213,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 89f8d657399905b4fa912ff00f783d54
+    spriteID: 20734eb5def3084478c92e2f661625e3
     vertices: []
     indices: 
     edges: []

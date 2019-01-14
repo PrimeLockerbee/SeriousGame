@@ -1,10 +1,9 @@
 fileFormatVersion: 2
-guid: d6b80f45eb95df84999586e8d9f739ef
+guid: 7c9ea766c3f517e438e7f406dead38e3
 TextureImporter:
   fileIDToRecycleName:
-    21300000: background
-    21300002: fill
-    21300004: bar
+    21300000: StartNUitleg_0
+    21300002: StartNUitleg_1
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -44,11 +43,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 10016
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,10 +62,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -74,10 +73,10 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -85,10 +84,10 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: iPhone
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -96,10 +95,10 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Android
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,61 +108,41 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: background
+      name: StartNUitleg_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 187
-        height: 820
+        x: 4
+        y: 224
+        width: 462
+        height: 171
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41628a2b5f94dd847b2da4c83e51422c
+      spriteID: d4865a4628c91704f83f5428fca29922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fill
+      name: StartNUitleg_1
       rect:
         serializedVersion: 2
-        x: 234
-        y: 145
-        width: 105
-        height: 506
-      alignment: 9
-      pivot: {x: 0.5, y: 0.49}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a43b2a3d2fa0cf4a9f377c1fdac07cf
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bar
-      rect:
-        serializedVersion: 2
-        x: 251
-        y: 727
-        width: 75
-        height: 20
+        x: 14
+        y: 4
+        width: 440
+        height: 173
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc59b894139cb834c874e93aa132654a
+      spriteID: 034336dbbf28c7347bd2b98b210abb3c
       vertices: []
       indices: 
       edges: []
@@ -171,7 +150,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 89f8d657399905b4fa912ff00f783d54
+    spriteID: e3d36232ee18a55439e0bcec23589b12
     vertices: []
     indices: 
     edges: []

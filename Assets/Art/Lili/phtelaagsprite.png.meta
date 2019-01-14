@@ -1,10 +1,12 @@
 fileFormatVersion: 2
-guid: d6b80f45eb95df84999586e8d9f739ef
+guid: 0427cff2c9899eb46bf07a645400b81f
 TextureImporter:
   fileIDToRecycleName:
-    21300000: background
-    21300002: fill
-    21300004: bar
+    21300000: phtelaagsprite_0
+    21300002: phtelaagsprite_1
+    21300004: phtelaagsprite_2
+    21300006: phtelaagsprite_3
+    21300008: phtelaagsprite_4
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -44,7 +46,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -63,10 +65,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -74,10 +76,10 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -85,10 +87,10 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: iPhone
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -96,10 +98,10 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Android
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,61 +111,101 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: background
+      name: phtelaagsprite_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 187
-        height: 820
+        x: 1771
+        y: 377
+        width: 647
+        height: 356
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41628a2b5f94dd847b2da4c83e51422c
+      spriteID: 5473c15845607864aa3a0ac4d4b33b0a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fill
+      name: phtelaagsprite_1
       rect:
         serializedVersion: 2
-        x: 234
-        y: 145
-        width: 105
-        height: 506
-      alignment: 9
-      pivot: {x: 0.5, y: 0.49}
+        x: 3334
+        y: 381
+        width: 647
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a43b2a3d2fa0cf4a9f377c1fdac07cf
+      spriteID: b291f332681d09a4eb32c45ee302d8c2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bar
+      name: phtelaagsprite_2
       rect:
         serializedVersion: 2
-        x: 251
-        y: 727
-        width: 75
-        height: 20
+        x: 2599
+        y: 381
+        width: 647
+        height: 356
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc59b894139cb834c874e93aa132654a
+      spriteID: 58d54e003cfa6274da57e3c15bf38c3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phtelaagsprite_3
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 377
+        width: 647
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30d34684ddc9814690cf2089f985967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phtelaagsprite_4
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 370
+        width: 647
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c0ac5516ed73447948b89a21510037
       vertices: []
       indices: 
       edges: []
@@ -171,7 +213,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 89f8d657399905b4fa912ff00f783d54
+    spriteID: d6d32beb62ea122428bc03fb5ac6a6a8
     vertices: []
     indices: 
     edges: []
