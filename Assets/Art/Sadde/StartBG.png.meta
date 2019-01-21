@@ -1,12 +1,7 @@
 fileFormatVersion: 2
-guid: 0427cff2c9899eb46bf07a645400b81f
+guid: 3a77e94238b6b4c4a863edabd9bfad68
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: phtelaagsprite_3
-    21300002: phtelaagsprite_5
-    21300004: phtelaagsprite_4
-    21300006: phtelaagsprite_2
-    21300008: phtelaagsprite_1
+  fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -36,7 +31,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -45,7 +40,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -109,111 +104,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: phtelaagsprite_3
-      rect:
-        serializedVersion: 2
-        x: 1744
-        y: 333
-        width: 647
-        height: 452
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5473c15845607864aa3a0ac4d4b33b0a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: phtelaagsprite_5
-      rect:
-        serializedVersion: 2
-        x: 3331
-        y: 333
-        width: 647
-        height: 452
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b291f332681d09a4eb32c45ee302d8c2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: phtelaagsprite_4
-      rect:
-        serializedVersion: 2
-        x: 2599
-        y: 333
-        width: 647
-        height: 452
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58d54e003cfa6274da57e3c15bf38c3c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: phtelaagsprite_2
-      rect:
-        serializedVersion: 2
-        x: 989
-        y: 333
-        width: 647
-        height: 452
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a30d34684ddc9814690cf2089f985967
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: phtelaagsprite_1
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 333
-        width: 647
-        height: 452
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6c0ac5516ed73447948b89a21510037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: d6d32beb62ea122428bc03fb5ac6a6a8
+    spriteID: 
     vertices: []
     indices: 
     edges: []
