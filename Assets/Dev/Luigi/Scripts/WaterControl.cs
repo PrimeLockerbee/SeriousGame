@@ -28,12 +28,17 @@ public class WaterControl : MonoBehaviour
     [SerializeField]
     //private GameObject m_warningText;
     //Ph management
-    public int m_ph;
+    private int m_ph;
     private int m_amplitude;
     //timer to switch ph amount
     private float m_waterTimer;
     public float m_startWaterTimer;
-
+    //animator
+    private float m_waterState;
+    [SerializeField]
+    private Animator m_UpperWater;
+    [SerializeField]
+    private Animator m_LowerWater;
     //UI elements
     [SerializeField]
     private TextMeshProUGUI m_WaterText;
@@ -43,7 +48,9 @@ public class WaterControl : MonoBehaviour
     void Start ()
     {
         m_waterTimer = m_startWaterTimer;
-	}
+        m_ph = 0;
+
+    }
 	void Update ()
     {
         //Phtext
@@ -109,5 +116,80 @@ public class WaterControl : MonoBehaviour
             //m_warningText.SetActive(false);
             m_state = WaterState.schoon;
         }
-	}
+        //Animator State
+        m_UpperWater.SetFloat("WaterState", m_waterState);
+        m_LowerWater.SetFloat("WaterState", m_waterState);
+        if (m_state == WaterState.schoon)
+        {
+            m_waterState = 0f;
+        }
+        else if (m_state == WaterState.beetjeVies)
+        {
+            m_waterState = 1f;
+        }
+        else if (m_state == WaterState.redelijkVies)
+        {
+            m_waterState = 2f;
+        }
+        else if (m_state == WaterState.ergVies)
+        {
+            m_waterState = 3f;
+        }
+    }
+    #region Assign Buttons
+    #region Positive
+    //Positive Buttons
+    public void Plus3()
+    {
+        m_ph += 3;
+    }
+    public void Plus4()
+    {
+        m_ph += 4;
+    }
+    public void Plus5()
+    {
+        m_ph += 5;
+    }
+    public void Plus7()
+    {
+        m_ph += 7;
+    }
+    public void Plus8()
+    {
+        m_ph += 8;
+    }
+    public void Plus9()
+    {
+        m_ph += 9;
+    }
+    #endregion
+    #region Negative
+    //Negative Buttons
+    public void Min3()
+    {
+        m_ph -= 3;
+    }
+    public void Min4()
+    {
+        m_ph -= 4;
+    }
+    public void Min5()
+    {
+        m_ph -= 5;
+    }
+    public void Min7()
+    {
+        m_ph -= 7;
+    }
+    public void Min8()
+    {
+        m_ph -= 8;
+    }
+    public void Min9()
+    {
+        m_ph -= 9;
+    }
+    #endregion
+    #endregion
 }

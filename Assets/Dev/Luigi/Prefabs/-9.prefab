@@ -96,7 +96,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 114891298545458564, guid: a02f4486417721f4d9fb2870bdb64a4a,
+          type: 2}
         m_MethodName: Min9
         m_Mode: 1
         m_Arguments:
@@ -131,6 +132,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2641a0bb7b10154f9680e5b85fcf3db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_controller: {fileID: 114891298545458564, guid: a02f4486417721f4d9fb2870bdb64a4a,
+    type: 2}
 --- !u!222 &222971266278473696
 CanvasRenderer:
   m_ObjectHideFlags: 1
