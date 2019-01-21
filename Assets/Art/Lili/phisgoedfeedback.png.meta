@@ -114,12 +114,12 @@ TextureImporter:
       name: phisgoedfeedback_0
       rect:
         serializedVersion: 2
-        x: 72
+        x: 56
         y: 382
-        width: 654
+        width: 670
         height: 439
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,12 +134,12 @@ TextureImporter:
       name: phisgoedfeedback_1
       rect:
         serializedVersion: 2
-        x: 884
+        x: 859
         y: 382
-        width: 650
+        width: 675
         height: 439
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -154,12 +154,12 @@ TextureImporter:
       name: phisgoedfeedback_2
       rect:
         serializedVersion: 2
-        x: 1657
-        y: 382
-        width: 653
+        x: 1655
+        y: 379
+        width: 669
         height: 439
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -174,12 +174,12 @@ TextureImporter:
       name: phisgoedfeedback_3
       rect:
         serializedVersion: 2
-        x: 2471
+        x: 2461
         y: 382
-        width: 649
+        width: 659
         height: 439
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,12 +194,12 @@ TextureImporter:
       name: phisgoedfeedback_4
       rect:
         serializedVersion: 2
-        x: 3284
+        x: 3278
         y: 382
-        width: 652
+        width: 658
         height: 439
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
