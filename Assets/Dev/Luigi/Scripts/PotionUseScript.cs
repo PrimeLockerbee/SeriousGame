@@ -5,6 +5,7 @@ using UnityEngine;
 public class PotionUseScript : MonoBehaviour
 {
     private GameObject m_potion;
+    [SerializeField]
     private WaterControl m_controller;
 
     void Start ()
@@ -21,6 +22,6 @@ public class PotionUseScript : MonoBehaviour
     }
     private void OnBecameVisible()
     {
-        //this.transform.position =
+        //this.transform.position
     }
 }

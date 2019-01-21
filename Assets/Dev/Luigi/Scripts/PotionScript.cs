@@ -5,6 +5,7 @@ using Pooling;
 
 public class PotionScript : MonoBehaviour
 {
+    [SerializeField]
     private WaterControl m_waterManager;
     public List<GameObject> m_PpotionList;
     public List<GameObject> m_NpotionList;
@@ -17,14 +18,11 @@ public class PotionScript : MonoBehaviour
 
     private int m_listCount = 2;
     
-    private int m_randomizer;
+    //private int m_randomizer;
 
     void Start ()
     {
-        m_waterManager = GetComponent<WaterControl>();
-
         //m_list.Count = m_randomizer;
-
         for (int i = 0; i < m_list.Count; i++)
         {
             if (i == 0)
@@ -58,7 +56,6 @@ public class PotionScript : MonoBehaviour
         }
     }
     #region Assign Buttons
-    #region Positive
     //Positive Buttons
     public void Plus3()
     {
@@ -84,8 +81,6 @@ public class PotionScript : MonoBehaviour
     {
         m_waterManager.m_ph += 9;
     }
-    #endregion
-    #region Negative
     //Negative Buttons
     public void Min3()
     {
@@ -111,6 +106,5 @@ public class PotionScript : MonoBehaviour
     {
         m_waterManager.m_ph -= 9;
     }
-    #endregion
     #endregion
 }

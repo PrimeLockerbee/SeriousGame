@@ -41,6 +41,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2641a0bb7b10154f9680e5b85fcf3db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_controller: {fileID: 114891298545458564, guid: a02f4486417721f4d9fb2870bdb64a4a,
+    type: 2}
 --- !u!114 &114571375121946778
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -80,19 +82,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 114211912092338364}
-        m_MethodName: OnClick
+      - m_Target: {fileID: 114818432043470784, guid: a02f4486417721f4d9fb2870bdb64a4a,
+          type: 2}
+        m_MethodName: Plus3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
