@@ -7,7 +7,10 @@ public class PotionScript : MonoBehaviour
 {
     [SerializeField]
     private WaterControl m_waterManager;
+    
     public List<GameObject> m_PpotionList;
+
+    
     public List<GameObject> m_NpotionList;
 
     public List<ListInList> m_list;
@@ -22,38 +25,11 @@ public class PotionScript : MonoBehaviour
 
     void Start ()
     {
-        //m_list.Count = m_randomizer;
-        for (int i = 0; i < m_list.Count; i++)
-        {
-            if (i == 0)
-            {
-                for (int j = 0; j < m_list[0].Object.Count; j++)
-                {
-                    GameObject obj = (GameObject)Instantiate(m_list[0].Object[j].gameObject, m_Pcanvas.transform);
-                    obj.SetActive(true);
-                    m_PpotionList.Add(obj);
-                }
-            }
-            if (i == 1)
-            {
-                for (int j = 0; j < m_list[1].Object.Count; j++)
-                {
-                    GameObject obj = (GameObject)Instantiate(m_list[1].Object[j].gameObject, m_Ncanvas.transform);
-                    obj.SetActive(true);
-                    m_NpotionList.Add(obj);
-                }
-            }
-        }
     }
 	void Update ()
     {
-        switch (m_listCount)
-        {
-            case 0:
-                m_NpotionList[0].SetActive(false);
-                m_NpotionList[0].SetActive(true);
-                break;
-        }
+        Debug.Log(m_PpotionList.Count);
+        Debug.Log(m_NpotionList.Count);
     }
     #region Assign Buttons
     //Positive Buttons
