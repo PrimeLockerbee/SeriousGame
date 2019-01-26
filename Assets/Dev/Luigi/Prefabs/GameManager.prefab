@@ -20,11 +20,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4762224855785290}
   - component: {fileID: 114891298545458564}
-  - component: {fileID: 114396698364720918}
   - component: {fileID: 114818432043470784}
   m_Layer: 0
   m_Name: GameManager
-  m_TagString: Untagged
+  m_TagString: Manager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,18 +41,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114396698364720918
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1737926312578144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2641a0bb7b10154f9680e5b85fcf3db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_controller: {fileID: 114891298545458564}
 --- !u!114 &114818432043470784
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -69,8 +56,20 @@ MonoBehaviour:
   m_PpotionList: []
   m_NpotionList: []
   m_list:
-  - m_Object: []
-  - m_Object: []
+  - m_Object:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - m_Object:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
   m_Pcanvas: {fileID: 1132568524925740, guid: 1fb6d37d7e2bd3049bcb83667ebf651a, type: 2}
   m_Ncanvas: {fileID: 1100315606709566, guid: 1d3aaba0104bb5740944b2b747216fbc, type: 2}
 --- !u!114 &114891298545458564
@@ -84,12 +83,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16bba62f71fe455478ea0539898d3840, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_InBalans: {fileID: 0}
   m_tooHigh: {fileID: 0}
   m_tooLow: {fileID: 0}
   m_UpperWater: {fileID: 0}
   m_LowerWater: {fileID: 0}
   m_ph: 9
   m_startWaterTimer: 5
-  m_WaterText: {fileID: 114287058540711268, guid: 115945463d1dfeb4193a926f9cbefe26,
-    type: 2}
-  m_phBar: {fileID: 1637333950908416, guid: 9799a85e6a6e89746a7fae14f8770a8a, type: 2}
+  m_WaterText: {fileID: 0}
+  m_phBar: {fileID: 0}
+  m_phMeter: {fileID: 0}

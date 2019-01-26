@@ -54,12 +54,14 @@ public class WaterControl : MonoBehaviour
     private TextMeshProUGUI m_WaterText;
     [SerializeField]
     private GameObject m_phBar;
+    [SerializeField]
+    private GameObject m_phMeter;
 
     void Start ()
     {
         m_waterTimer = m_startWaterTimer;
         m_ph = 0;
-
+        m_phBar.transform.position = m_phMeter.transform.position;
     }
 	void Update ()
     {
@@ -68,7 +70,7 @@ public class WaterControl : MonoBehaviour
         //PhBar
         if (m_ph < 25 || m_ph > -25)
         { 
-            m_phBar.transform.position = new Vector2(m_phBar.transform.position.x, (m_ph + 25f) / 10f);
+            m_phBar.transform.position = new Vector2(m_phBar.transform.position.x, m_ph / 8f);
         }
         //random water generator
         if (m_waterTimer < 0)
