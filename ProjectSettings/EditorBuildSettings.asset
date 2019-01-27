@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Bradley/BradleyScene.unity
     guid: 01eb0927bdbdd0f4c85fd9dc75c3d275
   - enabled: 1
-    path: Assets/Scenes/Bradley/BradleyMainScene.unity
-    guid: 9da8a896a36a9864cb7c423acf0f7f1f
+    path: Assets/Scenes/MainScene/MainScene.unity
+    guid: 5039f57cf46fb0e42bbaaec4d1ff6f67
   m_configObjects: {}
