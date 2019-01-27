@@ -1,35 +1,84 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Pooling;
 
 public class PotionScript : MonoBehaviour
 {
+    //GameManager
     [SerializeField]
     private WaterControl m_waterManager;
-    
+    //Potion Lists
     public List<GameObject> m_PpotionList;
-
-    
     public List<GameObject> m_NpotionList;
-
-    public List<ListInList> m_list;
+    //Assign potion positions
     [SerializeField]
-    private GameObject m_Pcanvas;
+    public GameObject m_Npos1;
     [SerializeField]
-    private GameObject m_Ncanvas;
-
-    private int m_listCount = 2;
-    
-    //private int m_randomizer;
+    public GameObject m_Npos2;
+    [SerializeField]
+    public GameObject m_Ppos1;
+    [SerializeField]
+    public GameObject m_Ppos2;
+    //Check if bar is filled
+    public bool m_pBarFilled;
+    public bool m_nBarFilled;
 
     void Start ()
     {
+        m_pBarFilled = false;
     }
 	void Update ()
     {
-        Debug.Log(m_PpotionList.Count);
-        Debug.Log(m_NpotionList.Count);
+        //rules for positive potion list
+        if (!m_pBarFilled)
+        {
+            int rndm = Random.Range(0, m_PpotionList.Count);
+            if (m_Ppos1.transform.childCount == 0)
+            {
+                if (!m_PpotionList[rndm].activeSelf)
+                {
+                    m_PpotionList[rndm].SetActive(true);
+                    m_PpotionList[rndm].transform.SetParent(m_Ppos1.transform);
+                }
+            }
+            else if (m_Ppos2.transform.childCount == 0)
+            {
+                if (!m_PpotionList[rndm].activeSelf)
+                {
+                    m_PpotionList[rndm].SetActive(true);
+                    m_PpotionList[rndm].transform.SetParent(m_Ppos2.transform);
+                }
+            }
+            else
+            {
+                m_pBarFilled = true;
+            }
+        }
+        //rules for negative potion list
+        if (!m_nBarFilled)
+        {
+            int rndm = Random.Range(0, m_NpotionList.Count);
+            if (m_Npos1.transform.childCount == 0)
+            {
+                if (!m_NpotionList[rndm].activeSelf)
+                {
+                    m_NpotionList[rndm].SetActive(true);
+                    m_NpotionList[rndm].transform.SetParent(m_Npos1.transform);
+                }
+            }
+            else if (m_Npos2.transform.childCount == 0)
+            {
+                if (!m_NpotionList[rndm].activeSelf)
+                {
+                    m_NpotionList[rndm].SetActive(true);
+                    m_NpotionList[rndm].transform.SetParent(m_Npos2.transform);
+                }
+            }
+            else
+            {
+                m_nBarFilled = true;
+            }
+        }
     }
     #region Assign Buttons
     //Positive Buttons

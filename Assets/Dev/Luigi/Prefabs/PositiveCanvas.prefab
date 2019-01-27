@@ -19,6 +19,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 224573774659045062}
+  - component: {fileID: 114046648574764590}
+  - component: {fileID: 114113376757077392}
   m_Layer: 0
   m_Name: PositiveCanvas
   m_TagString: Untagged
@@ -26,6 +28,30 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &114046648574764590
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1132568524925740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aa4d90fb58d9d34cbd5184a03f1fa0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_thisEmpty: 0
+--- !u!114 &114113376757077392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1132568524925740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aa4d90fb58d9d34cbd5184a03f1fa0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_thisEmpty: 0
 --- !u!224 &224573774659045062
 RectTransform:
   m_ObjectHideFlags: 1
@@ -41,6 +67,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -250, y: -40}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}

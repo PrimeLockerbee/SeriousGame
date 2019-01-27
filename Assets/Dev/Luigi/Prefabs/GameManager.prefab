@@ -55,23 +55,10 @@ MonoBehaviour:
   m_waterManager: {fileID: 114891298545458564}
   m_PpotionList: []
   m_NpotionList: []
-  m_list:
-  - m_Object:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-  - m_Object:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-  m_Pcanvas: {fileID: 1132568524925740, guid: 1fb6d37d7e2bd3049bcb83667ebf651a, type: 2}
-  m_Ncanvas: {fileID: 1100315606709566, guid: 1d3aaba0104bb5740944b2b747216fbc, type: 2}
+  m_Npos1: {fileID: 0}
+  m_npos2: {fileID: 0}
+  m_ppos1: {fileID: 0}
+  m_ppos2: {fileID: 0}
 --- !u!114 &114891298545458564
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -88,8 +75,8 @@ MonoBehaviour:
   m_tooLow: {fileID: 0}
   m_UpperWater: {fileID: 0}
   m_LowerWater: {fileID: 0}
-  m_ph: 9
-  m_startWaterTimer: 5
+  m_ph: 0
+  m_startWaterTimer: 3
   m_WaterText: {fileID: 0}
   m_phBar: {fileID: 0}
   m_phMeter: {fileID: 0}
