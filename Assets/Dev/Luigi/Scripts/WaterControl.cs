@@ -57,11 +57,18 @@ public class WaterControl : MonoBehaviour
     [SerializeField]
     private GameObject m_phMeter;
 
+    //Assign potionScript
+    private PotionScript m_potionSlot;
+    //Assign canvas as parent for the potions
+    [SerializeField]
+    private GameObject m_canvas;
+
     void Start ()
     {
         m_waterTimer = m_startWaterTimer;
         m_ph = 0;
         m_phBar.transform.position = m_phMeter.transform.position;
+        m_potionSlot = GetComponent<PotionScript>();
     }
 	void Update ()
     {
@@ -75,9 +82,13 @@ public class WaterControl : MonoBehaviour
         //random water generator
         if (m_waterTimer < 0)
         {
+            //Change the amplitude
             m_amplitude = Random.Range(-15, 15);
             m_ph += m_amplitude;
             m_waterTimer = m_startWaterTimer;
+            //Reset bars
+            m_potionSlot.m_pBarFilled = false;
+            m_potionSlot.m_nBarFilled = false;
         }
         else
         {
@@ -95,7 +106,7 @@ public class WaterControl : MonoBehaviour
             Debug.Log("You lose");
         }
         #endregion
-        //Debug lines
+        //Check water state
         if (m_ph >= 14)
         {
             m_InBalans.SetActive(false);
