@@ -2,11 +2,11 @@ fileFormatVersion: 2
 guid: 0427cff2c9899eb46bf07a645400b81f
 TextureImporter:
   fileIDToRecycleName:
-    21300000: phtelaagsprite_0
-    21300002: phtelaagsprite_1
-    21300004: phtelaagsprite_2
-    21300006: phtelaagsprite_3
-    21300008: phtelaagsprite_4
+    21300000: phtelaagsprite_3
+    21300002: phtelaagsprite_5
+    21300004: phtelaagsprite_4
+    21300006: phtelaagsprite_2
+    21300008: phtelaagsprite_1
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -111,15 +111,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: phtelaagsprite_0
+      name: phtelaagsprite_3
       rect:
         serializedVersion: 2
-        x: 1771
-        y: 377
+        x: 1744
+        y: 333
         width: 647
-        height: 356
+        height: 452
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -131,15 +131,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: phtelaagsprite_1
+      name: phtelaagsprite_5
       rect:
         serializedVersion: 2
-        x: 3334
-        y: 381
+        x: 3331
+        y: 333
         width: 647
-        height: 356
+        height: 452
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -151,15 +151,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: phtelaagsprite_2
+      name: phtelaagsprite_4
       rect:
         serializedVersion: 2
         x: 2599
-        y: 381
+        y: 333
         width: 647
-        height: 356
+        height: 452
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -171,15 +171,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: phtelaagsprite_3
+      name: phtelaagsprite_2
       rect:
         serializedVersion: 2
         x: 989
-        y: 377
+        y: 333
         width: 647
-        height: 356
+        height: 452
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -191,15 +191,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: phtelaagsprite_4
+      name: phtelaagsprite_1
       rect:
         serializedVersion: 2
-        x: 145
-        y: 370
+        x: 146
+        y: 333
         width: 647
-        height: 356
+        height: 452
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

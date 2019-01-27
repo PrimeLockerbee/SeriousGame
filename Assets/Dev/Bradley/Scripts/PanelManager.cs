@@ -27,7 +27,11 @@ public class PanelManager : MonoBehaviour
         {
             introPanel.SetActive(false);
             gamePanel.SetActive(true);
-            m_Timer.m_GameTime = 60f;
+
+            if (m_Timer.m_GameTime > 60f)
+            {
+                m_Timer.m_GameTime = 60f;
+            }
         }
 	}
 }
